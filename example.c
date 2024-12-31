@@ -1,6 +1,7 @@
 /* gifdec example -- simple GIF player using SDL2
+ * First, you need to install SDL2.
  * compiling:
- *   cc `pkg-config --cflags --libs sdl2` -o example gifdec.c example.c
+ *   gcc -o example example.c gifdec.c -I/usr/local/include/SDL2 -lSDL2
  * executing:
  *   ./example animation.gif
  * */
